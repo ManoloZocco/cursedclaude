@@ -1,17 +1,49 @@
 {
   "name": "cursedclaude",
   "version": "0.1.0",
-  "description": "CursedClaude — use Claude Code's orchestrator with Cursor Pro's inference",
+  "description": "Claude Code's brain. Every model Cursor offers. One command.",
   "type": "module",
   "bin": {
     "cclaude": "./dist/index.js",
     "cursedclaude": "./dist/index.js"
   },
+  "files": [
+    "dist/",
+    "docs/installation.md",
+    "docs/usage.md",
+    "docs/troubleshooting.md",
+    "docs/models.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "cursor",
+    "proxy",
+    "ai",
+    "anthropic",
+    "llm"
+  ],
+  "author": "Manolo Zocco",
+  "license": "MIT",
+  "homepage": "https://github.com/ManoloZocco/cursedclaude#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManoloZocco/cursedclaude.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ManoloZocco/cursedclaude/issues"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
     "start": "node dist/index.js",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "better-sqlite3": "^11.0.0",

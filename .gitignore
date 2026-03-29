@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Runtime data & logs
+.cc-proxy/
+*.log
+
+# IDE & editor
+.cursor/
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Environment & secrets
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.secret
+
+# External / vendored projects (not part of cc-proxy)
+opencode-dev/
+opencode-dev.zip

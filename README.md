@@ -4,12 +4,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Node >=18](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org)
 
-**Claude Code's brain. Every model Cursor offers. One command.**
+**Claude Code's brain. Cursor's models. One command.**
 
 CursedClaude proxies Claude Code's API calls through Cursor's inference engine.
 You keep Claude Code's full orchestration (skills, plugins, slash commands, memory) while unlocking every model Cursor aggregates — Claude 4.6, GPT-5, Gemini 3.1, Grok 4, Kimi, and more — all from multiple providers, all in one place.
 
-> **Note:** Works with any Cursor account (free or Pro). Free accounts have a monthly request limit — Pro is recommended for heavy daily use. Not affiliated with Anthropic or Cursor.
+> **Note:** Works with any Cursor account (free or Pro). Free accounts have a monthly request limit — Pro is recommended for high "Auto" models daily use. Not affiliated with Anthropic or Cursor.
 
 ---
 

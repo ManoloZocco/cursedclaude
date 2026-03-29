@@ -47,12 +47,14 @@ cclaude --model <model-name>
 
 ## Model availability
 
-Model availability depends on your Cursor Pro plan. If a model is not available in your plan, Cursor will fall back to its default model.
+Cursor aggregates models from multiple providers (Anthropic, OpenAI, Google, xAI, Moonshot) under a single account. CursedClaude gives you access to all of them from Claude Code.
 
-To check which models work for your account:
+Which models are available depends on your Cursor plan and the current Cursor offering — not all models may be enabled for all accounts. If a model isn't available, Cursor falls back to its default.
+
+To check what's available for your account:
 ```bash
 cclaude models    # lists all known models
-cclaude status    # shows your Cursor membership type
+cclaude status    # shows your Cursor account info
 ```
 
 ---

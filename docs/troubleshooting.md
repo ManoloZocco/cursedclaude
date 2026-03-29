@@ -122,7 +122,7 @@ Error: No Cursor access token found. Make sure you are logged in to Cursor.
 **Steps:**
 1. Open Cursor
 2. Go to `File > Cursor Settings > Account`
-3. Verify you are logged in with a Pro subscription
+3. Verify you are logged in
 4. Restart Cursor if needed
 5. Retry `cclaude`
 

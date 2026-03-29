@@ -86,9 +86,10 @@ npx @anthropic-ai/claude-code --version
 
 1. Download from [cursor.sh](https://cursor.sh)
 2. Open Cursor → `File > Cursor Settings > Account` → log in
-3. Verify you have an active **Pro** subscription
 
 CursedClaude reads Cursor's local SQLite database to extract your auth token. Cursor must be installed and you must be logged in for this to work.
+
+> **Free vs Pro:** The free plan works but has a monthly request limit (~2000 completions). Claude Code makes many calls per session, so the free quota runs out quickly. Pro is recommended for daily use.
 
 ---
 

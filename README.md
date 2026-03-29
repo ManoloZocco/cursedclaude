@@ -9,7 +9,7 @@
 CursedClaude proxies Claude Code's API calls through Cursor Pro's inference engine.
 You keep Claude Code's full orchestration (skills, plugins, slash commands, memory) while gaining access to models only available in Cursor: Claude 4.6 Opus, GPT-5, Gemini 3.1, Grok 4, and more.
 
-> **Note:** Requires an active Cursor Pro subscription. This project is not affiliated with Anthropic or Cursor.
+> **Note:** Works with any Cursor account (free or Pro). Free accounts have a monthly request limit — Pro is recommended for heavy daily use. Not affiliated with Anthropic or Cursor.
 
 ---
 
@@ -17,7 +17,7 @@ You keep Claude Code's full orchestration (skills, plugins, slash commands, memo
 
 - **Node.js ≥ 18** — [nodejs.org](https://nodejs.org)
 - **Claude Code CLI** — `npm install -g @anthropic-ai/claude-code`
-- **Cursor** with an active **Pro subscription** — [cursor.sh](https://cursor.sh) (must be logged in)
+- **Cursor** (free or Pro) — [cursor.sh](https://cursor.sh) (must be logged in)
 
 ## Quick Start
 

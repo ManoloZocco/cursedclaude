@@ -135,15 +135,18 @@ If the file doesn't exist, Cursor has never been opened or the installation is n
 
 ---
 
-### Membership not recognized / models unavailable
+### Membership shows `null` or `unknown`
 
 **Symptom:** `cclaude status` shows membership as `null` or `unknown`.
 
-**Fix:**
-1. Open Cursor and verify your Pro subscription is active at [cursor.com/settings](https://cursor.com/settings)
-2. Log out and back in inside Cursor
-3. Restart Cursor completely (quit from the system tray/menu bar)
-4. Retry `cclaude status`
+This is not a blocker — CursedClaude works with any Cursor account. The membership field is informational only.
+
+If you're hitting request limits sooner than expected, check your quota at [cursor.com/settings](https://cursor.com/settings). Free accounts have ~2000 completions/month; Pro has a much higher limit.
+
+**If models are completely unavailable:**
+1. Log out and back in inside Cursor
+2. Restart Cursor completely (quit from the system tray/menu bar)
+3. Retry `cclaude status`
 
 ---
 
